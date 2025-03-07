@@ -11,6 +11,12 @@ This guide covers how to animate elements between screens. This feature is known
 
 :::warning
 
+**New Architecture Incompatibility**: Shared Element Transitions are unsupported on React Native's New Architecture (Fabric), which is the default since React Native 0.76. See [react-native-reanimated#6630](https://github.com/software-mansion/react-native-reanimated/issues/6630).
+
+:::
+
+:::warning
+
 As of writing this guide, Shared Element Transitions are considered an experimental feature not recommended for production use.
 
 :::
